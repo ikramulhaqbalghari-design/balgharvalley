@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Balghar Valley | Ghanche District Gilgit Baltistan</title>
+
+<meta name="description" content="Explore Balghar Valley, Ghanche District, Gilgit Baltistan. Culture, food, history and beauty of northern Pakistan.">
+
+<meta name="keywords" content="Balghar, Ghanche, Gilgit Baltistan, Pakistan tourism, Balti culture">
+
+<meta name="author" content="Sami ul Haq Balghari">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Poppins', sans-serif;background:#0f172a;color:white;}
+
+/*--------------- HEADER -------------*/
+header{
+display:flex;justify-content:space-between;align-items:center;
+padding:15px 30px;
+background:linear-gradient(135deg,#023949,#02ad9f);
+position:fixed;width:100%;z-index:999;
+}
+
+.left{display:flex;align-items:center;gap:10px;}
+.logo{width:45px;height:45px;border-radius:6px;background:url('https://i.postimg.cc/QCvhKMfC/Screenshot-2026-04-09-130757.png') center/cover;}
+.separator{font-size:24px;font-weight:600;}
+
+.title h1{font-family:'Orbitron';font-size:18px;}
+.title span{font-size:11px;}
+.ghanche{color:#fffbe9;font-weight:500;}
+.gb{color:#e7e7e7;cursor:pointer;}
+
+.right{display:flex;align-items:center;gap:20px;}
+
+.menu-toggle{display:none;font-size:26px;color:#fff;cursor:pointer;}
+
+.nav a{
+cursor:pointer;font-size:14px;margin:0 10px;color:#fff;position:relative;
+}
+.nav a::after{
+content:'';position:absolute;width:0;height:2px;background:#facc15;bottom:-4px;left:0;transition:.3s;
+}
+.nav a:hover::after{width:100%;}
+.nav a.active{color:#facc15;}
+
+.time-box{font-size:13px;text-align:right;}
+.date{font-size:10px;color:#facc15;}
+
+
+/*--------------About page------------*/
+#about .cover {
+  background: url('https://i.postimg.cc/fbTBGfK4/images-q-tbn-ANd9Gc-Sjp-Cy707z-Dw-ucf5Hx-So-Ichg-X2tqwoa-D91IA-s.jpg') center/cover no-repeat;
+  padding: 50px 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+}
+/* ABOUT PAGE */
+.about-content{
+text-align:center;
+padding:30px;
+}
+
+.profile-box img{
+width:140px;
+height:140px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.about-title{
+margin-top:15px;
+font-size:22px;
+color:#111;
+font-weight:500;
+}
+
+.about-desc{
+margin-top:25px;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+font-size:14px;
+line-height:1.9;
+color:#000;
+}
+
+.follow-text{
+margin-top:10px;
+font-weight:500;
+}
+
+.social-icons{
+margin-top:15px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.social-icons img{
+width:30px;
+transition:0.3s;
+}
+
+.social-icons img:hover{
+transform:scale(1.2);
+}
+
+/* MOBILE FIX */
+@media(max-width:768px){
+
+.profile-box img{
+width:110px;
+height:110px;
+}
+
+.about-title{
+font-size:18px;
+}
+
+.about-desc{
+font-size:13px;
+padding:0 10px;
+}
+
+.social-icons{
+gap:12px;
+}
+
+}
+
+/*--------------home page------------*/
+#home .cover {
+  background: url('https://i.postimg.cc/053XmBjm/image-6175.jpg') center/cover no-repeat;
+  padding: 50px 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+}
+/* HEADINGS */
+.main-heading{
+text-align:center;
+font-size:26px;
+font-weight:600;
+color:#111;
+margin-top:25px;
+}
+
+/* MAP */
+.map-box{
+display:flex;
+justify-content:center;
+margin-top:15px;
+}
+.map-box img{
+width:70%;
+max-width:500px;
+border-radius:8px;
+}
+
+/* TEXT */
+.highlight{
+color:rgb(6, 84, 107);
+font-weight:600;
+}
+
+.link-text a{
+color:#38bdf8;
+text-decoration:underline;
+}
+
+/* IMAGES */
+.image-row{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:20px;
+}
+.image-row img{
+width:35%;
+border-radius:6px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.map-box img{
+width:90%;
+}
+
+.image-row{
+flex-direction:column;
+align-items:center;
+}
+
+.image-row img{
+width:85%;
+}
+
+.main-heading{
+font-size:20px;
+}
+
+.desc{
+font-size:13px;
+padding:0 10px;
+}
+
+}
+ 
+/*--------------------------- FOOD GRID ------------------------*/
+/* ================= COVER ================= */
+
+.food-cover{
+  background: url('https://i.postimg.cc/6QnQ2tPj/food-cover.jpg') center/cover no-repeat;
+  height:250px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:#fff;
+}
+
+.food-cover h1{
+  font-size:32px;
+  font-weight:700;
+}
+
+.food-cover p{
+  font-size:14px;
+}
+
+/* ================= SECTION TITLE ================= */
+
+.section-title{
+  text-align:center;
+  font-size:22px;
+  margin-top:25px;
+  color:#111;
+  font-weight:600;
+}
+
+/* ================= FOOD LIST ================= */
+
+.food-list{
+  max-width:600px;
+  margin:15px auto;
+  padding-left:20px;
+  line-height:1.8;
+  font-size:14px;
+  color:#333;
+}
+
+/* ================= MAIN HEADING (SERIF) ================= */
+
+.food-title{
+  text-align:center;
+  font-size:20px;
+  font-weight: 500;
+  margin-top:30px;
+  color:#111;
+  letter-spacing:1px;
+}
+
+/* ================= GRID ================= */
+
+.food-grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:18px;
+  margin-top:25px;
+}
+
+/* CARD */
+.food-card{
+  width:200px;
+  background:#fff;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 6px 15px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.food-card:hover{
+  transform:translateY(-5px);
+}
+
+/* IMAGE */
+.food-card img{
+  width:100%;
+  height:140px;
+  object-fit:cover;
+}
+
+/* CAPTION */
+.food-card p{
+  text-align:center;
+  padding:8px;
+  font-size:13px;
+  font-weight:500;
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+  .food-card{
+    width:90%;
+  }
+
+  .food-cover{
+    height:200px;
+  }
+
+}
+
+
+/*-------------------BALGHAR---------------------*/
+
+/* Section Cover */
+#balghar .cover {
+  background: url('https://i.postimg.cc/053XmBjm/image-6175.jpg') center/cover no-repeat;
+  padding: 50px 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+}
+
+#balghar .cover h1{
+  font-size:32px;
+  font-weight:700;
+  margin-bottom:8px;
+}
+
+#balghar .cover p{
+  font-size:16px;
+}
+
+/* Description Text */
+#balghar .desc{
+  font-size:15px;
+  line-height:1.9;
+  color:#111;
+}
+
+/* Two Images Section (Responsive) */
+.two-img-section{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin-top:20px;
+  flex-wrap:wrap;
+}
+
+.img-box{
+  text-align:center;
+  flex: 1 1 45%;
+  max-width:500px;
+}
+
+.img-box img{
+  width:100%;
+  border-radius:8px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+
+.caption{
+  margin-top:6px;
+  font-size:14px;
+  color:#333;
+  font-weight:500;
+  text-align:center;
+}
+
+/* Gallery Images */
+
+#gallery .cover {
+  background: url('https://i.postimg.cc/fbTBGfK4/images-q-tbn-ANd9Gc-Sjp-Cy707z-Dw-ucf5Hx-So-Ichg-X2tqwoa-D91IA-s.jpg') center/cover no-repeat;
+  padding: 50px 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+}
+.image-row img{
+  box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+  #balghar .cover{
+    padding:40px 10px;
+  }
+
+  #balghar .cover h1{
+    font-size:26px;
+  }
+
+  #balghar .cover p{
+    font-size:14px;
+  }
+
+  .two-img-section{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .img-box{
+    flex:1 1 100%;
+    max-width:120%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .image-row img{
+    width:90% !important;
+    max-width:100%;
+  }
+}
+
+/*--------------------ghanche page----------------*/
+#ghanche .cover {
+  background: url('https://i.postimg.cc/053XmBjm/image-6175.jpg') center/cover no-repeat;
+  padding: 50px 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+}
+/* HEADINGS */
+.main-heading{
+text-align:center;
+font-size:26px;
+font-weight:600;
+color:#111;
+margin-top:20px;
+}
+
+/* IMAGES */
+.image-row{
+display:flex;
+justify-content:center;
+gap:8px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.img-box{
+text-align:center;
+}
+
+.img-box img{
+width:220px;
+border-radius:6px;
+}
+
+.img-box p{
+margin-top:6px;
+font-size:13px;
+color:#333;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.main-heading{
+font-size:20px;
+}
+
+.desc{
+font-size:13px;
+padding:0 10px;
+}
+
+.image-row{
+flex-direction:column;
+align-items:center;
+}
+
+.img-box img{
+width:85%;
+}
+
+}
+
+
+/* SECTIONS */
+.section{display:none;opacity:0;transform:translateY(20px);transition:.5s;}
+.section.active{display:block;opacity:1;transform:translateY(0);}
+
+/* COVER */
+.cover{
+height:350px;
+display:flex;flex-direction:column;justify-content:center;align-items:center;
+text-align:center;
+background-size:cover;background-position:center;
+}
+
+/* CONTENT */
+.content{padding:30px;background:#fff;color:#000;}
+.desc{margin-top:15px;max-width:700px;margin:auto;line-height:1.8;}
+
+/* IMAGE ROW */
+.image-row{
+display:flex;justify-content:center;gap:10px;margin-top:20px;
+}
+.image-row img{
+width:35%;border-radius:6px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+header{padding:10px 15px;}
+
+.menu-toggle{display:block;}
+
+.nav{
+position:absolute;
+top:60px;
+right:0;
+background:#1e3a8a;
+flex-direction:column;
+width:200px;
+display:none;
+padding:10px;
+}
+
+.nav.show{display:flex;}
+
+.nav a{margin:10px 0;}
+
+.time-box{display:none;}
+
+.cover{height:250px;}
+
+.image-row{
+flex-direction:column;
+align-items:center;
+}
+
+.image-row img{
+width:80%;
+}
+}
+
+
+
+/*----------heading undreline-------------*/
+.heading-wrapper {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  flex-direction: column;
+}
+
+.heading-wrapper h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #111;
+}
+
+
+/*------------ NGO SECTION -----------*/
+.ngo-section{
+margin-top:30px;
+padding:10px;
+text-align:center;
+}
+
+.ngo-title{
+font-size:26px;
+font-weight:600;
+color:#111;
+}
+
+.ngo-sub{
+font-size:14px;
+margin-top:5px;
+color:#555;
+font-weight:500;
+}
+
+/* ROW */
+.ngo-row{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:30px;
+margin-top:25px;
+flex-wrap:wrap;
+}
+
+/* IMAGE */
+.ngo-img img{
+width:260px;
+height:260px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* TEXT */
+.ngo-text{
+max-width:500px;
+text-align:left;
+font-size:14px;
+line-height:1.8;
+color:#000;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.ngo-row{
+flex-direction:column;
+gap:15px;
+}
+
+.ngo-text{
+text-align:center;
+padding:0 10px;
+}
+
+.ngo-img img{
+width:90%;
+height:auto;
+}
+
+}
+
+.ngo-social{
+margin-top:20px;
+text-align:center;
+}
+
+.ngo-social img{
+width:40px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.ngo-social img:hover{
+transform:scale(1.2);
+}
+
+
+
+/*------------------------video player-----------*/
+
+/* SECTION */
+.video-section{
+margin-top:30px;
+text-align:center;
+}
+
+/* VIDEO CARDS */
+.video-cards{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.video-card{
+flex:1 1 22%;
+max-width:260px;
+cursor:pointer;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
+transition:0.3s;
+background:#fff;
+}
+
+.video-card:hover{
+transform:scale(1.05);
+box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+.video-card img{
+width:100%;
+display:block;
+}
+
+.caption{
+padding:8px;
+font-size:14px;
+font-weight:500;
+color:#111;
+}
+
+/* MAIN VIDEO */
+.main-video{
+margin-top:25px;
+}
+
+.main-video video{
+width:80%;
+max-width:720px;
+border-radius:10px;
+box-shadow:0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.video-cards{
+flex-direction:column;
+gap:15px;
+}
+
+.video-card{
+max-width:90%;
+margin:auto;
+}
+
+.main-video video{
+width:95%;
+}
+}
+
+/* ===== KHAPLU SECTION ===== */
+
+.khaplu-section{
+  margin-top:30px;
+  padding:10px;
+  text-align:center;
+}
+
+/* IMAGE */
+.khaplu-image{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+
+.khaplu-image img{
+  width:90%;
+  max-width:700px;
+  height:350px;
+  object-fit:cover;
+  border-radius:10px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* TEXT */
+.khaplu-text{
+  max-width:750px;
+  margin:25px auto;
+  font-size:14px;
+  line-height:1.9;
+  color:#000;
+  text-align:center;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+  .khaplu-image img{
+    width:95%;
+    height:auto;
+  }
+
+  .khaplu-text{
+    padding:0 10px;
+    font-size:13px;
+  }
+
+}
+
+/* ====================== MAP SAME AS IMAGE STYLE =================*/
+.img-box iframe{
+  width:100%;
+  height:100%;
+  min-height:250px;
+  border:0;
+  border-radius:8px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+  background: linear-gradient(135deg,#023949,#02ad9f);
+  color:#fff;
+  margin-top:40px;
+}
+
+/* MAIN CONTAINER */
+.footer-container{
+  display:flex;
+  justify-content:space-between;
+  gap:50px;
+  padding:40px 35px;
+  flex-wrap:wrap;
+}
+
+/* ALL BOXES */
+.footer-box{
+  flex:1 1 250px;
+}
+
+/* ================= LEFT (NGO STYLE) ================= */
+
+.footer-left{
+  text-align:left;
+}
+
+.footer-logo{
+  width:95px;
+  height:95px;
+  border-radius:5px;
+  background:url('https://i.postimg.cc/QCvhKMfC/Screenshot-2026-04-09-130757.png') center/cover;
+  margin-bottom:12px;
+  border:1px solid #facc15;
+  
+}
+.footer-left h3{
+  font-family:'Poppins', sans-serif;
+  font-size:18px;
+  font-weight:600;
+  margin-bottom:8px;
+}
+
+.footer-left p{
+  font-size:13px;
+  line-height:1.7;
+  color:#e5e5e5;
+  max-width:300px;
+}
+
+/* ================= LINKS (SHIFT RIGHT MORE) ================= */
+
+.footer-links{
+  margin-left:20px;  /* 👈 MORE RIGHT SHIFT */
+}
+
+.footer-links h4{
+  color:#facc15;
+  margin-bottom:10px;
+}
+
+.footer-links ul{
+  list-style:none;
+  padding:0;
+}
+
+.footer-links ul li{
+  font-size:13px;
+  margin:8px 0;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.footer-links ul li:hover{
+  color:#facc15;
+  padding-left:6px;
+}
+
+/* ===== FOOTER FEEDBACK ===== */
+
+.footer-feedback{
+  text-align:center;
+  margin-top:10px;
+}
+
+/* HEADING */
+.footer-feedback h3{
+  font-size:16px;
+  margin-bottom:10px;
+  color:#fff;
+  font-weight:500;
+}
+
+/* FORM */
+.footer-feedback form{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  align-items:center;
+}
+
+/* INPUT */
+.footer-feedback input,
+.footer-feedback textarea{
+  width:90%;
+  max-width:220px;
+  padding:8px;
+  border-radius:6px;
+  border:none;
+  outline:none;
+  font-size:12px;
+  background:rgba(255,255,255,0.9);
+}
+
+/* BUTTON */
+.footer-feedback button{
+  padding:8px 14px;
+  border:none;
+  border-radius:6px;
+  background:linear-gradient(135deg,#02ad9f,#023949);
+  color:#fff;
+  font-size:12px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+/* HOVER */
+.footer-feedback button:hover{
+  transform:scale(1.05);
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:768px){
+
+  .footer-feedback input,
+  .footer-feedback textarea{
+    max-width:90%;
+  }
+
+}
+
+/* ================= DEVELOPER ================= */
+
+.developer-box{
+  text-align:center;
+}
+
+.developer-box h4{
+  color:#facc15;
+  margin-bottom:10px;
+}
+
+.dev-profile{
+  display:flex;
+  justify-content:center;
+  margin-bottom:10px;
+}
+
+.dev-profile img{
+  width:85px;
+  height:85px;
+  border-radius:50%;
+  object-fit:cover;
+  border:2px solid #facc15;
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.developer-box p{
+  font-size:13px;
+  margin:4px 0;
+}
+
+/* ================= FOOTER BOTTOM ================= */
+
+.footer-bottom{
+  text-align:center;
+  padding:12px;
+  background:rgba(0,0,0,0.25);
+  font-size:12px;
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+  .footer-container{
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    gap:25px;
+  }
+
+  .footer-links{
+    margin-left:0;
+  }
+  .footer-left{
+    text-align:center;
+  }
+
+  .footer-left p{
+    max-width:100%;
+  }
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="left">
+<div class="logo"></div>
+<div class="separator">|</div>
+<div class="title">
+<h1>MY BALGHAR</h1>
+<span><span class="ghancha">Ghanche</span> , <span class="gb" onclick="openGB()">Gilgit Baltistan</span></span>
+</div>
+</div>
+
+<div class="right">
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+<div class="nav"> 
+ <a onclick="loadPage('home',this)" class="active">HOME</a>
+<a onclick="loadPage('about',this)">ABOUT  ME</a>
+<a onclick="loadPage('ghanche',this)">GHANCHE</a>
+<a onclick="loadPage('balghar',this)">BALGHAR</a>
+<a onclick="loadPage('gallery',this)">GALLERY</a>
+<a onclick="loadPage('food',this)">BALTI FOODS</a>
+</div>
+
+<div class="time-box">
+<div id="time"></div>
+<div id="date" class="date"></div>
+</div>
+</div>
+</header>
+
+<!---------------------------------- HOME ----------------------------------->
+
+<div id="home" class="section active">
+
+  <div class="cover">
+    <h1>HOME</h1>
+    <p>Explore the beauty of GHANCHE</p>
+  </div>
+
+  <div class="content">
+
+    <!-- GILGIT BALTISTAN -->
+    <div class="gilgit-baltistan-section">
+
+      <h2 class="main-heading">GILGIT BALTISTAN</h2>
+
+      <!-- Map Image -->
+      <div class="map-box">
+        <img src="https://i.postimg.cc/wThhV4Nq/Gilgit-Baltistan-map-with-tehsils-labelled.png"
+             alt="Gilgit Baltistan Map">
+      </div>
+
+      <div class="desc">
+        <p>.</p>
+        Gilgit Baltistan is a stunning mountainous region in northern Pakistan, famous for its breathtaking landscapes, snow-capped peaks, lush valleys, and pristine rivers. The region offers a unique blend of natural beauty and cultural heritage.
+
+        <br><br>
+
+        Its major attractions include majestic mountains like K2, serene lakes such as Attabad and Sheosar, and historical sites including forts and ancient mosques.
+
+        <br><br>
+
+        <span class="highlight">Capital:</span> Gilgit  
+        <br>
+        <span class="highlight">Borders:</span> Khyber Pakhtunkhwa, Afghanistan, China.
+
+        <br><br>
+
+        <span class="link-text">
+          For more information please visit = 
+          <a href="https://gilgitbaltistan.gov.pk" target="_blank">Official Website</a>
+        </span>
+      </div>
+
+    </div>
+
+    <!-- GHANCHE -->
+    <h2 class="main-heading">GHANCHE DISTRICT</h2>
+
+    <div class="desc">
+      Ghanche is the easternmost district of Gilgit-Baltistan, rich in cultural and historical beauty. 
+
+      <span class="highlight">Chaqchan Mosque</span> and 
+      <span class="highlight">Khaplu Palace</span> reflect traditional craftsmanship.
+
+      <br><br>
+
+      Cultural dances like <span class="highlight">Mandoq Taimo</span> and 
+      <span class="highlight">Ragi Taimo</span> are popular.
+
+      <br><br>
+
+      <ul>
+        <li><span class="highlight">Headquarter:</span> <strong>Khaplu</strong></li>
+       <li><span class="highlight">Languages:</span> <strong>Balti, Urdu, English</strong></li>
+       <li><span class="highlight">Activities:</span> Trekking, Camping, Fishing</li>
+      </ul>
+    </div>
+
+    <!-- IMAGES -->
+    <div class="image-row">
+      <img src="https://i.postimg.cc/fyTs9gRF/5532134ca67c5.jpg">
+      <img src="https://i.postimg.cc/85Z3qkTw/55320d1cd20ae.jpg">
+    </div><br>
+
+<!-- KHAPLU FORT SECTION -->
+<div class="khaplu-section">
+
+  <!-- HEADING -->
+  <h2 class="main-heading">KHAPLU FORT</h2>
+
+  <!-- LARGE IMAGE -->
+  <div class="khaplu-image">
+    <img src="https://i.postimg.cc/g0sv7Cyk/View-of-main-entrance-of-Khaplu-Palace.jpg" alt="Khaplu Fort">
+  </div>
+
+  <!-- DESCRIPTION -->
+  <div class="khaplu-text">
+
+    Khaplu Fort locally known as Yabgo Khar (meaning "The fort of Doqsa"),
+    is an old fort and palace located in Khaplu, district Ghanche. It was built
+    in the mid-19th century, replacing an earlier fort located nearby. It served
+    as a royal residence for the Raja of Khaplu.
+
+    <br><br>
+
+    The architecture of Khaplu Fort is a fusion of Himalayan, Kashmiri and
+    Mughal styles. The spaces inside the palace provide a historical record
+    of the raja's lifestyle.
+
+    <br><br>
+
+    The architectural style reflects cultural influences of Mughal and Kashmiri
+    traditions. The natural surroundings enhance its beauty and heritage value.
+
+    <br><br>
+
+    One of the most stunning features of the Fort is its semi-octagonal timber
+    entrance which transforms into a balcony on the second floor, and a guest
+    room on the third floor.
+
+  </div>
+
+                 <!-- BALGHAR MAP SECTION -->
+<h2 class="main-heading">Khaplu Fort</h2>
+
+<div class="two-img-section">
+
+  <div class="img-box">
+    
+    <iframe
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d493.37158154188717!2d76.33481297566246!3d35.15210548101485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e4a9c38e9d5eaf%3A0x1891625118cb6829!2sSerena%20Khaplu%20Palace!5e1!3m2!1sen!2s!4v1776246957618!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+  </div>
+
+</div><br>
+
+</div>
+
+  </div>
+</div>
+
+<!--------------------------- ABOUT ----------------------->
+
+<div id="about" class="section">
+  
+  <div class="cover">
+    <h1>ABOUT</h1>
+    <p>Learn about me</p>
+  </div>
+
+  <div class="content about-content">
+
+    <!-- Profile Image -->
+    <div class="profile-box">
+      <img src="https://i.postimg.cc/QCvhKMfC/Screenshot-2026-04-09-130757.png" alt="Profile">
+    </div>
+
+    <!-- Greeting -->
+    <h2 class="about-title">
+      ASALAM-O-ALIAKUM
+    </h2>
+
+    <!-- Description -->
+    <div class="about-desc">
+
+      I am <strong>SAMI UL HAQ BALGHARI</strong>, son of <strong>ABDUL HAQ</strong> from 
+      <strong>Gilgit Baltistan</strong>, District <strong>Ghanche</strong>, Valley 
+      <strong>Balghar</strong>.  
+
+      <br><br>
+
+      I studied from Nursery to 7th class at <strong>Islamic Model School Balghar</strong>, 
+      and continued my education from 9th to 10th class at 
+      <strong>Fauji Foundation School Wah Cantt (Boys Campus)</strong>.  
+
+      I am a <strong>Computer Science student</strong>.
+
+      <br><br>
+
+      For more information, complaints or feedback please contact me on this:
+
+      <br><br>
+
+      <h3 style='color:rgb(6, 84, 107)'>Email: samiulhaqbalti@gmail.com</h3>
+      <h3 style="color: #000;"><a href="https://www.facebook.com/profile.php?id=61586322172711"alt='Sami ul haq facebook'>facebook (click Now)</a></h3>
+
+      <br><br>
+
+      <div class="follow-text">
+        Please follow me on social media
+      </div>
+
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+      
+      <a href="https://www.tiktok.com/@samiulhaqbalti?is_from_webapp=1&sender_device=pc" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png">
+      </a>
+
+      <a href="https://www.facebook.com/profile.php?id=61586322172711" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+      </a>
+
+      <a href="https://twitter.com/yourusername" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png">
+      </a>
+
+      <a href="https://youtube.com/@eagleplayhd?si=7yZ2JVp56_85nok-" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
+      </a>
+
+    </div>
+
+  </div>
+</div>
+ 
+<!---------------------balti foods------------------------->
+
+    <div id="food" class="section">
+
+  <!-- COVER -->
+  <div class="food-cover">
+    <h1>Balti Foods</h1>
+    <p>Traditional taste of Ghanche</p>
+  </div>
+
+  <div class="content">
+
+    <!-- FOOD LIST -->
+    <h2 class="section-title">Balti Dish</h2>
+
+    <ul class="food-list">
+      <li>Balti Soup</li>
+      <li>Mamtu</li>
+      <li>Parapoo</li>
+      <li>Khorba Roti</li>
+      <li>Mar Zan Dish</li>
+      <li>Balay (Chya, Trashpa, Nas)</li>
+      <li>Balti Tea</li>
+    </ul>
+
+    <!-- HEADING -->
+    <h2 class="food-title">FAMOUS BALTI DISH PICTURES</h2>
+
+    <!-- IMAGE GRID -->
+    <div class="food-grid">
+
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/RZ2RzG9w/mamtu.jpg">
+        <p>Mamtu</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/T181dL1t/roti.jpg">
+        <p>Khorba Roti</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/VvpyWbrB/parapoo.jpg">
+        <p>Parapoo</p>
+      </div><br>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/J0Rx2n8Z/balay.jpg">
+        <p>Trashpa Balay</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/j5DndYXR/mar-zan.jpg">
+        <p>Mar Zan  Dish</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/kggZ5Tky/balti-tea.jpg">
+        <p>Balti Tea</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/tTqV0V1D/kobani.jpg">
+        <p>kobani Fruit</p>
+      </div>
+      </div>
+
+     <!-------------fruit------------->
+      <h2 class="section-title">Fruits</h2>
+
+    <ul class="food-list">
+      <li>Apple</li>
+      <li>Nashpati</li>
+      <li>Kobani</li>
+      <li>Angoor (balck, green)</li>
+      <li>cherry</li>
+      <li>Akhroot</li>
+      <li>sarsing</li>
+    </ul>
+
+     <h3 class="food-title">FRUITS PICTURES</h3>
+
+    <!-- IMAGE GRID -->
+    <div class="food-grid">
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/NFSM2FQ3/nashpati.jpg">
+        <p>Nashpati</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/d1cjrQVy/angoor(green).jpg">
+        <p>Angoor(green)</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/d0k5GSRf/angoor-(black).jpg">
+        <p>Angoor (black)</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/HkpG4HjS/cherry.jpg">
+        <p>Cherry</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/hvgQPfPf/kobani2.jpg">
+        <p>Khobani</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/fkn2b7Sm/Akhrot.jpg">
+        <p>Akhroot</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/9fZGm3Y3/badaam.jpg">
+        <p>Badaam</p>
+      </div>
+
+      
+      <div class="food-card">
+        <img src="https://i.postimg.cc/8C9n3Vk9/sarching.jpg">
+        <p>sarsing</p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!--------------------- GHANCHE ------------------------>
+
+<div id="ghanche" class="section">
+
+  <div class="cover">
+    <h1>ABOUT GHANCHE DISTRICT</h1>
+  </div>
+
+  <div class="content">
+
+<!-- GHANCHE -->
+    <h2 class="main-heading">GHANCHE DISTRICT</h2><p>.</p>
+
+    
+              <!-- BALGHAR MAP SECTION -->
+<h2 class="main-heading">Ghanche Map</h2>
+
+<div class="two-img-section">
+
+  <div class="img-box">
+    
+    <iframe
+     src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d177706.30806081748!2d76.05590257479084!3d35.18987128062914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sghanche%20district!5e1!3m2!1sen!2s!4v1776246815730!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+  </div>
+
+</div><br>
+
+    <div class="desc">
+      Ghanche is the easternmost district of Gilgit-Baltistan, rich in cultural and historical beauty. 
+
+      <span class="highlight">Chaqchan Mosque</span> and 
+      <span class="highlight">Khaplu Palace</span> reflect traditional craftsmanship.
+
+      <br><br>
+
+      Cultural dances like <span class="highlight">Mandoq Taimo</span> and 
+      <span class="highlight">Ragi Taimo</span> are popular.
+
+      <br><br>
+      <ul>
+        <li><span class="highlight">Headquarter:</span> <strong>Khaplu</strong></li>
+       <li><span class="highlight">Languages:</span> <strong>Balti, Urdu, English</strong></li>
+       <li><span class="highlight">Activities:</span> Trekking, Camping, Fishing</li>
+      </ul>
+    </div>
+
+    <!-- IMAGES -->
+    <div class="image-row">
+      <img src="https://i.postimg.cc/fyTs9gRF/5532134ca67c5.jpg">
+      <img src="https://i.postimg.cc/85Z3qkTw/55320d1cd20ae.jpg">
+    </div>
+
+    <!-- Etymology -->
+    <h2 class="main-heading">Etymology</h2><p>.</p>
+    <div class="desc">
+      The word <strong>"gang"</strong> in the Balti language means glacier, and <strong>"che"</strong> is used to indicate abundance. 
+      The term is used by the residents of the <strong>Khaplu Valley</strong> for the <strong>Ghanche Nallah</strong>, a seasonal stream flowing through <strong>Khaplu</strong> during summer. 
+      When the government upgraded the area to district level, the name <strong>Ghanche</strong> was officially adopted.
+    </div>
+
+    <!-- Geography -->
+    <h2 class="main-heading">Geography</h2><p>.</p>
+    <div class="desc">
+      Ghanche is the easternmost district of <strong>Gilgit-Baltistan</strong> and one of the coldest regions of Pakistan, often called the <strong>"third pole"</strong>. 
+      The <strong>Shyok River</strong> flows through the district, while <strong>Khaplu Valley</strong> and <strong>Hushe Valley</strong> serve as gateways to the great <strong>Karakoram Mountains</strong>.
+
+      <br><br>
+
+      The region includes world-famous peaks such as <strong>K2</strong>, <strong>Broad Peak</strong>, 
+      <strong>Gasherbrum</strong>, and <strong>Masherbrum</strong>. 
+      Much of the land is snow-covered, with limited forest areas.
+    </div>
+
+    <!-- Images -->
+    <div class="image-row">
+
+      <div class="img-box">
+        <img src="https://i.postimg.cc/yNV59210/1280px-Baltoro-glacier-from-air.jpg">
+        <p>Karakoram Mountain</p>
+      </div>
+
+      <div class="img-box">
+        <img src="https://i.postimg.cc/fyjqJvG7/1280px-View-of-Saling-Bridge-over-Shyok-River-Khaplu.jpg">
+        <p>Shyok River</p>
+      </div>
+
+      <div class="img-box">
+        <img src="https://i.postimg.cc/mDqBmTk1/k2-mountain-1024x530.jpg">
+        <p>K2 Mountain</p>
+      </div>
+
+    </div>
+
+    <!-- History -->
+    <h2 class="main-heading">History</h2><p>.</p>
+    <div class="desc">
+      Until <strong>1820</strong>, Ghanche was ruled by the <strong>Yabghu dynasty</strong>, which had close ties with the <strong>Maqpon dynasty</strong> of Skardu. 
+      Later, <strong>Ahmad Shah of Skardu</strong> annexed the region, followed by the <strong>Dogra rule</strong> in 1840.
+
+      <br><br>
+
+      After the <strong>1947 Gilgit Rebellion</strong>, Ghanche became part of <strong>Pakistan</strong>. 
+      The district was officially established in <strong>1974</strong>, later reorganized, and regained its district status in <strong>1989</strong>.
+    </div>
+
+  </div>
+</div>
+
+<!----------------------------- -BALGHAR- ------------------------>
+
+<div id="balghar" class="section">
+  <div class="cover">
+  <h1>BALGHAR</h1>
+  </div>
+
+  <div class="content">
+
+    <!-- Main Image -->
+    <div style="text-align:center; margin-top:20px;">
+      <img src="https://i.postimg.cc/hPyQt88z/559275500-122105435463042858-1236246387397889454-n-jpg-stp-dst-jpg-s960x960-tt6-nc-cat-105-ccb-1-7.jpg" 
+           alt="Balghar Valley" 
+           style="width:90%; max-width:700px; border-radius:8px;">
+      <div style="margin-top:8px; font-weight:500; color:#333;">Balghar Valley</div>
+    </div>
+<!-- BALGHAR DETAILS -->
+<div class="desc" style="margin-top:25px; font-size:14px; line-height:1.8; color:#000; max-width:750px; margin-left:auto; margin-right:auto;">
+
+  <p>
+    <strong><h2 style="color:rgb(6, 84, 107)">BALGHAR VALLEY:</h2></strong>
+    Balghar (Urdu: بلغار وادی) is a village situated in <strong>Ghanche District</strong>, 
+    Gilgit Baltistan, Pakistan, along the banks of the <strong>Shyok River</strong>.
+  </p>
+
+  <p>
+    The confluence of the <strong>Shyok River</strong> and the <strong>Indus River</strong> 
+    occurs to the west of Balghar. The valley includes multiple neighborhoods 
+    (mahallahs), forming a diverse and culturally rich community.
+  </p>
+
+  <ul style="margin-top:15px; padding-left:20px;">
+    <li><strong>Total Mahallahs:</strong> 15 (Gond Balghar, Rotika, Ongbo, Marmyoung, Louhra, etc.)</li>
+    <li><strong>Nearby Valleys:</strong> Daghoni (East), Karis (West), Shiger (North), Kharfaq (South)</li>
+    <li><strong>Distance:</strong> 30 km from Ghanche HQ, 110 km from Skardu</li>
+    <li><strong>Elevation:</strong> 2,635 meters above sea level</li>
+    <li><strong>Agriculture:</strong> Main occupation of local people</li>
+  </ul>
+
+</div>
+
+<!-- KARGIL / MILITARY SECTION -->
+<h2 class="main-heading">MILITARY CONTRIBUTION</h2>
+
+<div class="two-img-section">
+
+  <div class="img-box">
+    <img src="https://i.postimg.cc/vHNRcWSv/108032371-gunsgetty976-jpg.webp" alt="Kargil War">
+    <div class="caption">Kargil War</div>
+  </div>
+
+  <div class="img-box">
+    <img src="https://i.postimg.cc/CxSvMdwL/TAMGHA-I-JURAAT.jpg" alt="Tamgha-e-Jurat">
+    <div class="caption">Tamgha-e-Jurat</div>
+  </div>
+
+</div>
+
+<div class="desc" style="max-width:750px; margin:20px auto; font-size:14px; line-height:1.8; color:#000;">
+  Balghar has played an important role in the Pakistan Army. 
+  <strong>Abdul Qadir Shaheed</strong> was awarded 
+  <strong>Tamgha-e-Jurat</strong> during the 1999 Kargil War.
+</div>
+              <!-- BALGHAR MAP SECTION -->
+<h2 class="main-heading">Balghar Map</h2>
+
+<div class="two-img-section">
+
+  <div class="img-box">
+    
+    <iframe 
+      src="https://www.google.com/maps?q=Balghar,Ghanche&output=embed"
+      loading="lazy">
+    </iframe>
+
+  </div>
+
+</div><br>
+
+
+    <!-- ANJUMNA-E-TALBA BALGHAR SECTION -->
+<div class="ngo-section">
+
+  <!-- Heading -->
+  <h2 class="ngo-title">ANJUMNA-E-TALBA BALGHAR</h2>
+  <div class="ngo-sub">Non-governmental organization (NGO)</div>
+
+  <!-- Content Row -->
+  <div class="ngo-row">
+
+    <!-- Left Image -->
+    <div class="ngo-img">
+      <img src="https://i.postimg.cc/dtp8D3Hh/471595192-639935478607791-4769177995397166498-n-jpg-stp-dst-jpg-s200x200-tt6-nc-cat-102-ccb-1-7-nc.jpg" alt="NGO Image">
+    </div>
+
+    <!-- Right Description -->
+    <div class="ngo-text">
+      Anjuman-e-Talba Balghar is a non-governmental organization working for the welfare of the local community. 
+      It focuses on highlighting public issues and presenting them to the concerned authorities to ensure solutions.
+
+      <br><br>
+
+      The organization plays an important role in solving basic problems such as 
+      <strong>electricity issues</strong>, <strong>water supply</strong>, and other community needs, 
+      helping improve the living conditions of the people of Balghar.
+    
+      </div>
+      <!-- FACEBOOK LINK -->
+<div class="ngo-social">
+  <a href="https://www.facebook.com/ATBalghar/photos" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+  </a>
+</div>
+</div>
+</div>
+  
+
+ 
+    <!-- Additional Gallery Images -->
+    <h2 style="margin-top:30px; text-align:center; font-size:24px; color:#111; font-weight:600;">BALGHAR VIEWS</h2>
+    <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px; margin-top:15px;">
+      <img src="https://i.postimg.cc/pXqj8dDL/24-big.jpg" alt="Balghar 1" style="width:48%; max-width:350px; border-radius:5px;">
+      <img src="https://i.postimg.cc/MH4S2RCd/valley1.jpg" alt="Balghar 2" style="width:48%; max-width:350px; border-radius:5px;">
+      <img src="https://i.postimg.cc/x8jvDNK4/id84zwquhew41.jpg" alt="Karakoram Mountains" style="width:48%; max-width:350px; border-radius:5px;">
+      <img src="https://i.postimg.cc/3wc5D2wX/my-village-in-autumn-balghar-khaplu-gilgit-baltistan-v0-nb3p78t0il341.jpg" alt="K2 Mountain" style="width:48%; max-width:350px; border-radius:5px;">
+      <img src="https://i.postimg.cc/8cHxD0MZ/download.jpg" alt="Balghar 1" style="width:48%; max-width:350px; border-radius:5px;">
+      <img src="https://i.postimg.cc/x8vbtBBY/images-q-tbn-ANd9Gc-Rtvxa0p1s-W7Img-Qukban0u-GUko-EI8bm-MAs-TA-s.jpg" alt="Balghar 1" style="width:48%; max-width:350px; border-radius:5px;">
+    </div>
+
+  </div>
+</div>
+
+<!----------------------GALLERY--------------------------->
+<div id="gallery" class="section">
+  <div class="cover">
+    <h1>GALLERY</h1>
+    <p>Explore the beauty of Ghanche District</p>
+  </div>
+
+<div class="content">
+<!-- Additional Gallery Images -->
+    <h2 style="margin-top:30px; text-align:center; font-size:24px; color:#111; font-weight:600;">BALGHAR VIEWS</h2>
+    <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px; margin-top:15px;">
+      <img src="https://i.postimg.cc/pXqj8dDL/24-big.jpg" alt="Balghar 1" style="width:48%; max-width:350px; border-radius:5px;">
+      <img src="https://i.postimg.cc/MH4S2RCd/valley1.jpg" alt="Balghar 2" style="width:48%; max-width:350px; border-radius:5px;">
+      <img src="https://i.postimg.cc/x8jvDNK4/id84zwquhew41.jpg" alt="Karakoram Mountains" style="width:48%; max-width:350px; border-radius:5px;">
+      <img src="https://i.postimg.cc/3wc5D2wX/my-village-in-autumn-balghar-khaplu-gilgit-baltistan-v0-nb3p78t0il341.jpg" alt="K2 Mountain" style="width:48%; max-width:350px; border-radius:5px;">
+    </div>
+ 
+
+    <!-- HEADING -->
+    <h2 class="food-title">FAMOUS BALTI DISH PICTURES</h2>
+
+    <!-- IMAGE GRID -->
+    <div class="food-grid">
+
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/RZ2RzG9w/mamtu.jpg">
+        <p>Mamtu</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/T181dL1t/roti.jpg">
+        <p>Khorba Roti</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/VvpyWbrB/parapoo.jpg">
+        <p>Parapoo</p>
+      </div><br>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/J0Rx2n8Z/balay.jpg">
+        <p>Trashpa Balay</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/j5DndYXR/mar-zan.jpg">
+        <p>Mar Zan  Dish</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/kggZ5Tky/balti-tea.jpg">
+        <p>Balti Tea</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/tTqV0V1D/kobani.jpg">
+        <p>kobani Fruit</p>
+      </div>
+      </div>
+
+     <!-------------fruit------------->
+    
+     <h3 class="food-title">FRUITS PICTURES</h3>
+
+    <!-- IMAGE GRID -->
+    <div class="food-grid">
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/NFSM2FQ3/nashpati.jpg">
+        <p>Nashpati</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/d1cjrQVy/angoor(green).jpg">
+        <p>Angoor(green)</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/d0k5GSRf/angoor-(black).jpg">
+        <p>Angoor (black)</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/HkpG4HjS/cherry.jpg">
+        <p>Cherry</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/hvgQPfPf/kobani2.jpg">
+        <p>Khobani</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/fkn2b7Sm/Akhrot.jpg">
+        <p>Akhroot</p>
+      </div>
+
+      <div class="food-card">
+        <img src="https://i.postimg.cc/9fZGm3Y3/badaam.jpg">
+        <p>Badaam</p>
+      </div>
+
+      
+      <div class="food-card">
+        <img src="https://i.postimg.cc/8C9n3Vk9/sarching.jpg">
+        <p>sarsing</p>
+      </div>
+
+    </div>
+
+<!-- VIDEO SECTION -->
+<div class="video-section">
+
+  <h2 class="main-heading">VIDEOS</h2>
+
+  <div class="video-cards">
+
+    
+
+  <!-- MAIN VIDEO PLAYER -->
+  <div class="main-video">
+    <video id="mainVideoPlayer" controls>
+      <source src="d:\tilawat\World_s most beautiful recitation of Surah Ar-Rahman (سورة الرحمن)  _ Zikrullah TV(720P_HD).mp4" type="video/mp4">
+    </video>
+  </div>
+
+</div>
+</div>
+</div>
+</div> 
+<script>
+function toggleMenu(){
+document.querySelector('.nav').classList.toggle('show');
+}
+
+function loadPage(page,el){
+document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+document.getElementById(page).classList.add('active');
+document.querySelectorAll('.nav a').forEach(a=>a.classList.remove('active'));
+if(el) el.classList.add('active');
+document.querySelector('.nav').classList.remove('show');
+}
+
+function openGB(){
+window.open("https://gilgitbaltistan.gov.pk","_blank");
+}
+
+setInterval(()=>{
+let now=new Date();
+time.innerText=now.toLocaleTimeString();
+date.innerText=now.toDateString();
+},1000);
+
+function playMainVideo(src){
+  const video = document.getElementById("mainVideoPlayer");
+  video.src = src;
+  video.play();
+}
+
+
+function sendEmail(e){
+  e.preventDefault();
+
+  let name = document.getElementById("fname").value;
+  let message = document.getElementById("fmsg").value;
+
+  let subject = encodeURIComponent("Feedback | MY BALGHAR Website");
+  let body = encodeURIComponent(
+    "Name: " + name + "\n\n" +
+    "Feedback:\n" + message
+  );
+
+  window.location.href = `mailto:samiulhaqbalti@gmail.com?subject=${subject}&body=${body}`;
+}
+
+</script>
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- LEFT (NGO STYLE: LOGO + TITLE + DESC) -->
+    <div class="footer-box footer-left">
+
+      <div class="footer-logo"></div>
+      <h4 style ='color: #ffc400'>MY BALGHAR</h4>
+      
+      <p>
+        Discover the beauty, culture and traditions of Ghanche District,
+        Gilgit Baltistan. A land full of nature, mountains and heritage.
+      </p>
+
+    </div>
+
+    <!-- MIDDLE (LINKS) -->
+    <div class="footer-box footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li onclick="loadPage('home')">Home</li>
+        <li onclick="loadPage('about')">About</li>
+        <li onclick="loadPage('ghanche')">Ghanche</li>
+        <li onclick="loadPage('balghar')">Balghar</li>
+        <li onclick="loadPage('food')">Balti Foods</li>
+      </ul>
+    </div>
+
+    <!-- FEEDBACK MINI FORM -->
+<div class="footer-feedback">
+
+  <h3>Quick Feedback</h3>
+
+  <form onsubmit="sendEmail(event)">
+
+    <input type="text" id="fname" placeholder="Name" required>
+
+    <textarea id="fmsg" rows="2" placeholder="Your feedback..." required></textarea>
+
+    <button type="submit">Send</button>
+
+  </form>
+
+</div>
+
+    <!-- RIGHT (DEVELOPER) -->
+    <div class="footer-box developer-box">
+
+      <h4>Developer</h4>
+
+      <div class="dev-profile">
+        <img src="https://i.postimg.cc/QCvhKMfC/Screenshot-2026-04-09-130757.png">
+      </div>
+
+      <p style='color:#200900'><strong>SAMI UL HAQ BALGHARI</strong></p>
+      <p>Email: samiulhaqbalti@gmail.com</p>
+      <p>Location: Gilgit Baltistan, Balghar Valley, Pakistan</p>
+
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>© 2026 MY BALGHAR || Developer: samiulhaqbalghari   || All Rights Reserved</p>
+  </div>
+
+</footer>
+
+</body>
+</html>
