@@ -9,54 +9,44 @@ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <image:image>
     <image:loc>https://i.postimg.cc/5077mg28/logo.png</image:loc>
-    <image:title>Web Logo</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/053XmBjm/image-6175.jpg</image:loc>
-    <image:title>Skardu Park</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/wThhV4Nq/Gilgit-Baltistan-map-with-tehsils-labelled.png</image:loc>
-    <image:title>Gilgit Baltistan Map</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/g0sv7Cyk/View-of-main-entrance-of-Khaplu-Palace.jpg</image:loc>
-    <image:title>Khaplu Fort</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/GmLDcCQG/Copilot-20260422-183048.png</image:loc>
-    <image:title>Sami Ul Haq Balghari</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/kggZ5Tky/balti-tea.jpg</image:loc>
-    <image:title>Balti Tea</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/85Z3qkTw/55320d1cd20ae.jpg</image:loc>
-    <image:title>Shigar Valley</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/hPyQt88z/559275500-122105435463042858-1236246387397889454-n-jpg-stp-dst-jpg-s960x960-tt6-nc-cat-105-ccb-1-7.jpg</image:loc>
-    <image:title>Balghar Valley View</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/dtp8D3Hh/471595192-639935478607791-4769177995397166498-n-jpg-stp-dst-jpg-s200x200-tt6-nc-cat-102-ccb-1-7-nc.jpg</image:loc>
-    <image:title>Anjuman-e-Talba Balghar</image:title>
   </image:image>
 
   <image:image>
     <image:loc>https://i.postimg.cc/x8jvDNK4/id84zwquhew41.jpg</image:loc>
-    <image:title>Balghar Valley Landscape</image:title>
   </image:image>
 
 </url>
 
-</urlset>>
+</urlset>
